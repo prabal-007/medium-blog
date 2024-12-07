@@ -5,9 +5,9 @@
     "deploy": "wrangler deploy --minify"
   },
   "dependencies": {
-    "@100xdevs/medium-common": "^1.0.0",
     "@prisma/client": "^6.0.1",
     "@prisma/extension-accelerate": "^1.2.1",
+    "@stark9/input-validations": "^1.0.0",
     "hono": "^4.6.13",
     "prisma": "^6.0.1"
   },
