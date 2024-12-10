@@ -1,11 +1,14 @@
 import { IoIosMore } from "react-icons/io";
 import { CiBellOn } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 export const Appbar = () => {
     return (
         <div className='flex justify-between px-14 py-3 border'>
             <div className='flex gap-3 justify-center items-center'>
+                <Link to={"/blogs"}>
                 <img src="/images/image.png" className="size-8 rounded-full" alt="" />
+                </Link>
                 <p className="text-black font-semibold ">Draft in kirags</p>
                 <p className="text-gray-500">saved</p>
             </div>
